@@ -2,23 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
+package com.mycompany.tp2_bieres_marchand;
 
 /**
  *
  * @author alexandremarchand
  */
-public class BouteilleBiere {
+class BouteilleBiere {
+
     String Nom;
     double degreAlcool;
-    String brasserie;
-    boolean ouverte;
 
-
-    public BouteilleBiere(String unNom,double unDegre, String
-uneBrasserie) {
-   Nom = unNom;
-   degreAlcool = unDegre;
-   brasserie = uneBrasserie;
-   ouverte = false;
+    void lireEtiquette() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+    
 }

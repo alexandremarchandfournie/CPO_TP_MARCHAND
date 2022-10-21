@@ -13,5 +13,10 @@ public class TP2_Bieres_MARCHAND {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-    }
-}
+        BouteilleBiere uneBiere =  new BouteilleBiere();
+        uneBiere.Nom= "Cuvée des trolls";
+        uneBiere.degreAlcool=7.0 ;
+        uneBiere.lireEtiquette();
+            
+   
+BouteilleBiere autreBiere= new BouteilleBiere("Leffe", 6.6,"Abbaye de Leffe")
