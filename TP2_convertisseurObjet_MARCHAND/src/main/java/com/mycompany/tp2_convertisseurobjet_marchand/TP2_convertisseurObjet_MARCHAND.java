@@ -23,24 +23,24 @@ public class TP2_convertisseurObjet_MARCHAND {
         System.out.println("Voulez vous convertir");
         String reputilisateur = sc.nextLine();
         if ( "oui".equals(reputilisateur)) { // on efectue un equals pour comparer chaines de caractères
-               System.out.println("Quelle est la nature de la conversion que vous souhaitez convertir ?  Entrez une réponse de type unitédevaleurversunitéconvertie , c'est à dire de type CelsiusversKelvin ou CelciusversFarenheit ou KelvinversCelsius ou KelvinversFarenheit ou FarenheitversCelsius ou FarenheitversKelvin");
+               System.out.println("Quelle est la nature de la conversion que vous souhaitez convertir ?  Entrez une réponse de type unitédevaleurversunitéconvertie , c'est à dire de type CelsiusversKelvin ou CelciusversFarenheit ou KelvinversCelcius ou KelvinversFarenheit ou FarenheitversCelcius ou FarenheitversKelvin");
                 String natureconversion = sc.nextLine();
                 System.out.println("Quelle est la valeur? Ecrivez en  chiffre un nombre entier ou décimal " );
                 int valeur=sc.nextInt();
-                if  ("CelsiusversKelvin".equals(natureconversion)) {
-                System.out.println(leconvertisseur.CelsiusversKelvin(valeur)+"Kelvin") ; //on fait appel à la référence objet
+                if  ("CelciusversKelvin".equals(natureconversion)) {
+                System.out.println(leconvertisseur.CelciusversKelvin(valeur)+"Kelvin") ; //on fait appel à la référence objet
                  }
-                if ("CelsiusversFarenheit".equals(natureconversion)){
-                System.out.println(leconvertisseur.CelsiusversFarenheit(valeur)+"Farenheit");} 
+                if ("CelciusversFarenheit".equals(natureconversion)){
+                System.out.println(leconvertisseur.CelciusversFarenheit(valeur)+"Farenheit");} 
                 
-                if ("KelvinversCelsius".equals(natureconversion)){
-                System.out.println(leconvertisseur.KelvinversCelsius(valeur)+"Celsius") ;}
+                if ("KelvinversCelcius".equals(natureconversion)){
+                System.out.println(leconvertisseur.KelvinversCelcius(valeur)+"Celcius") ;}
                  
                 if ("KelvinversFarenheit".equals(natureconversion)){
                 System.out.println(leconvertisseur.KelvinversFarenheit(valeur)+"Farenheit") ;}
                 
-                  if ("FarenheitversCelsius".equals(natureconversion)){
-                System.out.println(leconvertisseur.FarenheitversCelsius(valeur)+"Celsius") ;}
+                  if ("FarenheitversCelcius".equals(natureconversion)){
+                System.out.println(leconvertisseur.FarenheitversCelcius(valeur)+"Celcius") ;}
                 
                     if ("FarenheitversKelvin".equals(natureconversion)){
                 System.out.println(leconvertisseur.FarenheitversKelvin(valeur) +"Kelvin") ;}

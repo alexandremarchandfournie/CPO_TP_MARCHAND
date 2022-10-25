@@ -13,24 +13,24 @@ public class Convertisseur {
     public Convertisseur () { // caracteristique fonction convertisseur
     nbConversions =0 ;}
    
-    public double CelsiusversKelvin ( double tCelsius ) //définition d'une noiuvelle variable
+    public double CelciusversKelvin ( double tCelsius ) //définition d'une noiuvelle variable
            { tCelsius=tCelsius + 275.13;
            nbConversions++; //incrémentation nbConversions
              return ( tCelsius );
                    }
-    public double KelvinversCelsius ( double tKelvin )//définition d'une noiuvelle variable
+    public double KelvinversCelcius ( double tKelvin )//définition d'une noiuvelle variable
            { tKelvin=tKelvin - 275.13;
            nbConversions++; 
              return tKelvin;
               }
-    public double FarenheitversCelsius ( double tFarenheit ) //définition d'une noiuvelle variable
+    public double FarenheitversCelcius ( double tFarenheit ) //définition d'une noiuvelle variable
            { tFarenheit=(tFarenheit-32)/1.8;
            nbConversions++;
              return tFarenheit;
                    }              
     
     
-     public double CelsiusversFarenheit ( double tCelsius ) //définition d'une noiuvelle variable
+     public double CelciusversFarenheit ( double tCelsius ) //définition d'une noiuvelle variable
            { tCelsius=(tCelsius*1.8)+32;
             nbConversions++;
              return tCelsius;
