@@ -13,7 +13,7 @@ public class Convertisseur {
     public Convertisseur () { // caracteristique fonction convertisseur
     nbConversions =0 ;}
    
-    public double CelciusversKelvin ( double tCelsius ) //définition d'une noiuvelle variable
+    public double CelsiusversKelvin ( double tCelsius ) //définition d'une noiuvelle variable
            { tCelsius=tCelsius + 275.13;
            nbConversions++; //incrémentation nbConversions
              return ( tCelsius );
@@ -47,6 +47,11 @@ public class Convertisseur {
             nbConversions++;
              return tFarenheit;
                    }    
+     
+     public String toString () {
+  return "nb de conversions"+ nbConversions;
+     }
+
      
     }
 
