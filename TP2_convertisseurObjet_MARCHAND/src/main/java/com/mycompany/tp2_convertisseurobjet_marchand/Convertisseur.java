@@ -13,32 +13,38 @@ public class Convertisseur {
     public Convertisseur () { // caracteristique fonction convertisseur
     nbConversions =0 ;}
    
-    public static double CelciusversKelvin ( double tCelsius) //définition d'une noiuvelle variable
+    public double CelciusversKelvin ( double tCelsius ) //définition d'une noiuvelle variable
            { tCelsius=tCelsius + 275.13;
-             return tCelsius;
+           nbConversions++; //incrémentation nbConversions
+             return ( tCelsius );
                    }
-    public static double KelvinversCelsius ( double tKelvin )//définition d'une noiuvelle variable
+    public double KelvinversCelsius ( double tKelvin )//définition d'une noiuvelle variable
            { tKelvin=tKelvin - 275.13;
+           nbConversions++; 
              return tKelvin;
               }
-    public static double FarenheitversCelsius ( double tFarenheit ) //définition d'une noiuvelle variable
+    public double FarenheitversCelsius ( double tFarenheit ) //définition d'une noiuvelle variable
            { tFarenheit=(tFarenheit-32)/1.8;
+           nbConversions++;
              return tFarenheit;
                    }              
     
     
-     public static double CelsiusversFarenheit ( double tCelsius ) //définition d'une noiuvelle variable
+     public double CelsiusversFarenheit ( double tCelsius ) //définition d'une noiuvelle variable
            { tCelsius=(tCelsius*1.8)+32;
+            nbConversions++;
              return tCelsius;
                    }     
      
-     public static double KelvinversFarenheit ( double tKelvin ) //définition d'une noiuvelle variable
+     public double KelvinversFarenheit ( double tKelvin ) //définition d'une noiuvelle variable
            { tKelvin=(tKelvin - 275.13)*1.8 +32 ;
+           nbConversions++;
              return tKelvin;
                    }    
      
-     public static double FarenheitversKelvin ( double tFarenheit ) //définition d'une noiuvelle variable
+     public double FarenheitversKelvin ( double tFarenheit ) //définition d'une noiuvelle variable
            { tFarenheit=(tFarenheit - 32)/1.8 +275.13;
+            nbConversions++;
              return tFarenheit;
                    }    
      
