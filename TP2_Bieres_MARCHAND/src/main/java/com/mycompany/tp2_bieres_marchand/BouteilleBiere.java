@@ -21,15 +21,15 @@ System.out.println("Bouteille de " + Nom +" (" + degreAlcool + " degres) \nBrass
             System.out.println("erreur : biere déjà ouverte");} //s message d'erreur
        else { ouverte=true;  }} // mise à jour de la variable ouverte passant de false à true
 
-   //public String toString() {
-   //String chaine_a_retourner;
-  // chaine_a_retourner = ( Nom + " (" + degreAlcool + " degrés)"+ "( "+ ouverte+ ")" ) ;
-    //if (ouverte == true ) {
-     //   chaine_a_retourner += "oui" 
-     //} 
-   // else { chaine_a_retourner += "non" } ;
-//return chaine_a_retourner ;
-//}
+   public String toString() { // la technique fonctionne de façon similaire que lire etiquete
+   String chaine_a_retourner;
+   chaine_a_retourner = ( Nom + " (" + degreAlcool + " degrés)Ouverte? ");
+    if (ouverte == true ) {
+       chaine_a_retourner += "oui";
+      } 
+    else { chaine_a_retourner += "non"; } ;
+return chaine_a_retourner ;
+}
    //nouvelle façon de définir cette meme classe avec un constructeur:
 public BouteilleBiere(String unNom,double unDegre, String uneBrasserie) 
 {
