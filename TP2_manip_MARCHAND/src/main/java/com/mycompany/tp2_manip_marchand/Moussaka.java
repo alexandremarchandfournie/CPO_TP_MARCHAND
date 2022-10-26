@@ -11,6 +11,7 @@ package com.mycompany.tp2_manip_marchand;
 public class Moussaka {
   int nbCalories;
    public Moussaka ( int Cal) {  // constructeur permettant d'initialiser l'attribut NbCalories pour une valeur entrée en paramètre
-              Moussaka =Cal;
+             nbCalories = Cal ;
     
+}
 }
