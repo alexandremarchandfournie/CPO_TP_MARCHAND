@@ -11,11 +11,13 @@ package com.mycompany.tp2_relation1_marchand;
 public class Voiture {
     String Modele;
     String Marque;
-    int PuissanceCV;
+    int PuissanceCV; 
+    Personne Proprietaire; //on ajoute un attribut de type Personne
    public Voiture ( String mo, String ma,int P) {  // constructeur permettant d'initialiser l'attribut NbCalories pour une valeur entrée en paramètre
              Modele = mo ;
              Marque = ma ;
              PuissanceCV=P;
+            
      }        
   public String toString () {
   return "Modele: "+ Modele + "  Marque: " + Marque+ "  PuissanceCV "+ PuissanceCV;
