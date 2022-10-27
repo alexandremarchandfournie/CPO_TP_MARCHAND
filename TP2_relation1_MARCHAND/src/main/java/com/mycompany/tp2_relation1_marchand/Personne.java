@@ -11,6 +11,8 @@ package com.mycompany.tp2_relation1_marchand;
 public class Personne {
     String nom;
     String prenom;
+    int  nbVoitures;
+    Voiture[] liste_voitures; // le taleau repertorie l'ensemble des voitures d'une seule et meme persone
    public Personne ( String n, String p) {  // constructeur permettant d'initialiser l'attribut NbCalories pour une valeur entrée en paramètre
              nom = n ;
              prenom=p ;

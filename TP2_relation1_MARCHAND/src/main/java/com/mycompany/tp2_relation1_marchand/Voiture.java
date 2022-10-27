@@ -17,6 +17,7 @@ public class Voiture {
              Modele = mo ;
              Marque = ma ;
              PuissanceCV=P;
+             Proprietaire=null; //on initialise cette conditiona fin que l'objet voiture aucun lien avec un quelconque propriétaire lorsqu'il est crée
             
      }        
   public String toString () {
