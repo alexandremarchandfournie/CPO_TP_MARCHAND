@@ -9,12 +9,20 @@ package tp3_heritage_marchand;
  * @author alexandremarchand
  */
 public class Baton extends Arme {
-    String Nom;
-    int age;
-    public Baton ( String n, int i) {
-     Nom=n;
-     age=i;
-               
-    }
     
-}
+    int Age;
+    public Baton ( String nom, int  niv, int old) {
+     super(nom,niv);
+     if (old<=100) {
+         Age=99;
+    } else if ( old>0 ) {
+        Age=old;
+    
+    } else  { 
+    Age=0;
+           
+     }
+               
+  } }   
+    
+
