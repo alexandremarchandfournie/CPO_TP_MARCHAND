@@ -15,12 +15,12 @@ public class Tp3_heritage_marchand {
      */
     public static void main(String[] args) {
         
-        Epée Excalibur = new Epée ("Excalibur", 7, 5) ;
+        Epée Ex = new Epée ("Excalibur", 7, 5) ;
         Epée Dur = new Epée ("Durandal",4,7);
         Baton Che = new Baton ( "Chene",4,5);
         Baton Cha = new Baton ("Charme",5,6);
         
-        
+        //System.out.printlin ( Ex.toString);
         
         
         
